@@ -1,0 +1,19 @@
+databaseChangeLog:
+  #- include:
+  #    file: classpath:/db/changelog/changes/user.sql
+  #- include:
+  #    file: classpath:/db/changelog/changes/customer.sql
+  #- include:
+  #    file: classpath:/db/changelog/changes/veterinar.sql
+  #- include:
+  #    file: classpath:/db/changelog/changes/job_info.sql
+  #- include:
+  #    file: classpath:/db/changelog/changes/pet_walker.sql
+  - include:
+      file: classpath:/db/changelog/changes/pet_walker_announcement.sql
+  #- include:
+  #   file: classpath:/db/changelog/changes/authority.sql
+  - include:
+      file: classpath:/db/changelog/changes/pet_walking_request.sql
+  #- include:
+  #    file: classpath:/db/changelog/changes/user_authority.sql
